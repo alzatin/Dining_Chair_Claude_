@@ -20,13 +20,14 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.2828282828282828,
-      "y": 0.4879518072289156,
+      "x": 0.2816041848299913,
+      "y": 0.4909638554216868,
       "uniqueID": "id-3662",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
@@ -68,8 +69,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.49898989898989893,
-      "y": 0.713855421686747,
+      "x": 0.49433304272013945,
+      "y": 0.7198795180722891,
       "uniqueID": "id-3677",
       "ioValues": [
         {
@@ -78,7 +79,8 @@
         },
         {
           "name": "height",
-          "ioValue": 10
+          "ioValue": 10,
+          "currentEquation": "10"
         }
       ]
     },
@@ -111,16 +113,6 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Isosceles_Trapezoid"
-    },
-    {
-      "atomType": "Import",
-      "x": 0.20836965998256318,
-      "y": 0.7710843373493976,
-      "uniqueID": "id-3702",
-      "fileName": null,
-      "name": "Import",
-      "type": null,
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [
