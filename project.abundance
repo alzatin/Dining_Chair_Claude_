@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.4592592592592593,
-      "y": 0.5271084337349398,
+      "x": 0.45521885521885525,
+      "y": 0.3795180722891566,
       "uniqueID": "id-3720",
       "ioValues": [
         {
@@ -77,6 +77,18 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "Isosceles_Trapezoid"
+    },
+    {
+      "atomType": "Import",
+      "x": 0.3569023569023569,
+      "y": 0.7409638554216867,
+      "uniqueID": "id-3732",
+      "fileName": "0_copy1.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Dining_Chair_Claude",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [
