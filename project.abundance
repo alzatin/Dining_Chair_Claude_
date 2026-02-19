@@ -144,8 +144,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.8698501872659177,
-      "y": 0.755223880597015,
+      "x": 0.8211610486891385,
+      "y": 0.5343283582089552,
       "uniqueID": "id-3494",
       "ioValues": [
         {
@@ -184,8 +184,8 @@
     },
     {
       "atomType": "GitHubMolecule",
-      "x": 0.7846441947565543,
-      "y": 0.4895522388059702,
+      "x": 0.7162921348314607,
+      "y": 0.44776119402985076,
       "uniqueID": "id-3455",
       "name": "Mirror",
       "ioValues": [
@@ -477,6 +477,56 @@
       },
       "unitsKey": "Unitless",
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.805243445692884,
+      "y": 0.8417910447761194,
+      "uniqueID": "id-3569",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 96,
+          "currentEquation": "96"
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 48
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 0.4
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": [
+        [
+          {
+            "id": 0,
+            "rotate": 0,
+            "translate": {
+              "x": 5.4,
+              "y": 5.4
+            }
+          },
+          {
+            "id": 1,
+            "rotate": 0,
+            "translate": {
+              "x": 5.4,
+              "y": 16.200000000000003
+            }
+          }
+        ]
+      ]
     }
   ],
   "allConnectors": [
@@ -524,6 +574,11 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-3494",
       "ap2ID": "id-3395"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3494",
+      "ap2ID": "id-3569"
     },
     {
       "ap2Name": "Shape 1",
