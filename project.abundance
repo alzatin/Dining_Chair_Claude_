@@ -17,18 +17,6 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
-    },
-    {
-      "atomType": "Import",
-      "x": 0.461952861952862,
-      "y": 0.569277108433735,
-      "uniqueID": "id-3762",
-      "fileName": "3.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [],
