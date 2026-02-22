@@ -9,6 +9,10 @@
       "name": "Input",
       "ioValue": 10,
       "currentEquation": "10"
+    },
+    {
+      "name": "Input_1",
+      "ioValue": 10
     }
   ],
   "topLevel": true,
@@ -29,7 +33,8 @@
       "atomType": "Input",
       "x": 0.031349999999999996,
       "y": 0.19,
-      "uniqueID": "id-3399"
+      "uniqueID": "id-3399",
+      "type": "number"
     },
     {
       "atomType": "Extrude",
@@ -43,17 +48,23 @@
         },
         {
           "name": "height",
-          "ioValue": 10,
-          "currentEquation": "10"
+          "ioValue": 10
         }
       ]
     },
     {
+      "atomType": "Input",
+      "x": 0.031349999999999996,
+      "y": 0.304,
+      "uniqueID": "id-3418",
+      "name": "Input_1"
+    },
+    {
       "atomType": "Import",
-      "x": 0.3342723004694836,
-      "y": 0.5391566265060241,
-      "uniqueID": "id-3408",
-      "fileName": "2.svg",
+      "x": 0.3613861386138614,
+      "y": 0.5572289156626505,
+      "uniqueID": "id-3425",
+      "fileName": "3.svg",
       "name": "Import",
       "type": "SVG",
       "repoOwner": "alzatin",
