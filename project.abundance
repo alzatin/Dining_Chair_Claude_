@@ -4,17 +4,6 @@
   "y": 0,
   "uniqueID": "id-3394",
   "name": "Isosceles_Trapezoid",
-  "ioValues": [
-    {
-      "name": "Input",
-      "ioValue": 10,
-      "currentEquation": "10"
-    },
-    {
-      "name": "Input_1",
-      "ioValue": 10
-    }
-  ],
   "topLevel": true,
   "allAtoms": [
     {
@@ -28,108 +17,6 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.19,
-      "uniqueID": "id-3399",
-      "type": "number"
-    },
-    {
-      "atomType": "Extrude",
-      "x": 0.5171717171717172,
-      "y": 0.6656626506024096,
-      "uniqueID": "id-3404",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "height",
-          "ioValue": 10
-        }
-      ]
-    },
-    {
-      "atomType": "Input",
-      "x": 0.031349999999999996,
-      "y": 0.304,
-      "uniqueID": "id-3418",
-      "name": "Input_1"
-    },
-    {
-      "atomType": "Import",
-      "x": 0.3382507903055848,
-      "y": 0.5180722891566265,
-      "uniqueID": "id-3635",
-      "fileName": "1_copy1.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Import",
-      "x": 0.5268703898840885,
-      "y": 0.3765060240963855,
-      "uniqueID": "id-3663",
-      "fileName": "3.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Import",
-      "x": 0.624868282402529,
-      "y": 0.4789156626506024,
-      "uniqueID": "id-3665",
-      "fileName": "4.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Import",
-      "x": 0.2718651211801897,
-      "y": 0.8132530120481928,
-      "uniqueID": "id-3669",
-      "fileName": "0_copy1.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Import",
-      "x": 0.4204425711275026,
-      "y": 0.8132530120481928,
-      "uniqueID": "id-3671",
-      "fileName": "3.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
-    },
-    {
-      "atomType": "Import",
-      "x": 0.6596417281348788,
-      "y": 0.6867469879518072,
-      "uniqueID": "id-3673",
-      "fileName": "6_copy1.svg",
-      "name": "Import",
-      "type": "SVG",
-      "repoOwner": "alzatin",
-      "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
     }
   ],
   "allConnectors": [],
