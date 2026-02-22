@@ -92,6 +92,18 @@
       "repoOwner": "alzatin",
       "repoName": "Dining_Chair_Claude",
       "SVGwidth": 10
+    },
+    {
+      "atomType": "Import",
+      "x": 0.4061433447098976,
+      "y": 0.641566265060241,
+      "uniqueID": "id-3522",
+      "fileName": "3_copy1.svg",
+      "name": "Import",
+      "type": "SVG",
+      "repoOwner": "alzatin",
+      "repoName": "Dining_Chair_Claude",
+      "SVGwidth": 10
     }
   ],
   "allConnectors": [],
