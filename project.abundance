@@ -20,15 +20,15 @@
     },
     {
       "atomType": "Import",
-      "x": 0.37934668071654376,
-      "y": 0.4759036144578313,
+      "x": 0.273972602739726,
+      "y": 0.42771084337349397,
       "uniqueID": "id-3407",
       "fileName": "1_copy2.svg",
       "name": "Import",
       "type": "SVG",
       "repoOwner": "alzatin",
       "repoName": "Dining_Chair_Claude",
-      "SVGwidth": 10
+      "SVGwidth": 11
     },
     {
       "atomType": "Import",
@@ -44,8 +44,8 @@
     },
     {
       "atomType": "Import",
-      "x": 0.4246575342465753,
-      "y": 0.7198795180722891,
+      "x": 0.2528977871443625,
+      "y": 0.6867469879518072,
       "uniqueID": "id-3413",
       "fileName": "1_copy3.svg",
       "name": "Import",
