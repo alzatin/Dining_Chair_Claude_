@@ -16,8 +16,7 @@
     },
     {
       "name": "Width",
-      "ioValue": 16,
-      "currentEquation": "16"
+      "ioValue": 16
     },
     {
       "name": "Ply_thick",
@@ -25,7 +24,8 @@
     },
     {
       "name": "Leg_width",
-      "ioValue": 3.5
+      "ioValue": 3.5,
+      "currentEquation": "3.5"
     },
     {
       "name": "Seath_dep",
@@ -130,7 +130,7 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.6510344827586206,
+      "x": 0.6551724137931034,
       "y": 0.6204819277108434,
       "uniqueID": "id-5332",
       "ioValues": [
@@ -160,8 +160,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 9,
-          "currentEquation": "9"
+          "ioValue": 9
         },
         {
           "name": "yDist",
@@ -582,14 +581,46 @@
               "x": 0,
               "y": 0
             }
+          },
+          {
+            "id": 45,
+            "rotate": 0,
+            "translate": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": 46,
+            "rotate": 0,
+            "translate": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": 47,
+            "rotate": 0,
+            "translate": {
+              "x": 0,
+              "y": 0
+            }
+          },
+          {
+            "id": 48,
+            "rotate": 0,
+            "translate": {
+              "x": 0,
+              "y": 0
+            }
           }
         ]
       ]
     },
     {
       "atomType": "Gcode",
-      "x": 0.8310344827586207,
-      "y": 0.35843373493975905,
+      "x": 0.84,
+      "y": 0.34939759036144574,
       "uniqueID": "id-5673",
       "ioValues": [
         {
@@ -658,8 +689,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 2.5,
-          "currentEquation": "2.5"
+          "ioValue": 2.5
         },
         {
           "name": "yDist",
