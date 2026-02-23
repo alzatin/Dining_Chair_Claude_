@@ -7,8 +7,7 @@
   "ioValues": [
     {
       "name": "Height",
-      "ioValue": 40,
-      "currentEquation": "40"
+      "ioValue": 40
     },
     {
       "name": "Seat_height",
@@ -24,8 +23,7 @@
     },
     {
       "name": "Leg_width",
-      "ioValue": 3.5,
-      "currentEquation": "3.5"
+      "ioValue": 3.5
     },
     {
       "name": "Seath_dep",
@@ -77,7 +75,7 @@
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.44200000000000006,
+      "y": 0.5030120481927711,
       "uniqueID": "id-3623",
       "name": "Leg_width"
     },
@@ -124,7 +122,7 @@
     {
       "atomType": "Input",
       "x": 0.021449999999999997,
-      "y": 0.52,
+      "y": 0.6054216867469879,
       "uniqueID": "id-5002",
       "name": "Seath_dep"
     },
@@ -204,8 +202,7 @@
         },
         {
           "name": "Sheet Width",
-          "ioValue": 96,
-          "currentEquation": "96"
+          "ioValue": 96
         },
         {
           "name": "Sheet Height",
@@ -629,8 +626,7 @@
         },
         {
           "name": "Tool Size",
-          "ioValue": 0.25,
-          "currentEquation": "0.25"
+          "ioValue": 0.25
         },
         {
           "name": "Passes",
@@ -689,8 +685,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 2.5,
-          "currentEquation": "2.5"
+          "ioValue": 2.5
         },
         {
           "name": "yDist",
