@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "Height",
-      "ioValue": 40
+      "ioValue": 40,
+      "currentEquation": "40"
     },
     {
       "name": "Seat_height",
@@ -42,38 +43,78 @@
     },
     {
       "atomType": "Input",
-      "x": 0.024749999999999998,
-      "y": 0.19,
+      "x": 0.021449999999999997,
+      "y": 0.13,
       "uniqueID": "id-3484",
       "name": "Height"
     },
     {
       "atomType": "Input",
-      "x": 0.024749999999999998,
-      "y": 0.304,
+      "x": 0.021449999999999997,
+      "y": 0.20800000000000002,
       "uniqueID": "id-3487",
       "name": "Seat_height"
     },
     {
       "atomType": "Input",
-      "x": 0.024749999999999998,
-      "y": 0.418,
+      "x": 0.021449999999999997,
+      "y": 0.28600000000000003,
       "uniqueID": "id-3503",
       "name": "Width"
     },
     {
       "atomType": "Input",
-      "x": 0.024749999999999998,
-      "y": 0.532,
+      "x": 0.021449999999999997,
+      "y": 0.36400000000000005,
       "uniqueID": "id-3506",
       "name": "Ply_thick"
     },
     {
       "atomType": "Input",
-      "x": 0.024749999999999998,
-      "y": 0.646,
+      "x": 0.021449999999999997,
+      "y": 0.44200000000000006,
       "uniqueID": "id-3623",
       "name": "Leg_width"
+    },
+    {
+      "atomType": "Move",
+      "x": 0.35757575757575755,
+      "y": 0.3674698795180723,
+      "uniqueID": "id-4682",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 14
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.6127946127946128,
+      "y": 0.45180722891566266,
+      "uniqueID": "id-4688",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     },
     {
       "atomType": "Molecule",
@@ -119,42 +160,106 @@
         },
         {
           "atomType": "Input",
-          "x": 0.024749999999999998,
-          "y": 0.19,
+          "x": 0.021449999999999997,
+          "y": 0.13,
           "uniqueID": "id-3509",
           "name": "Height",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.024749999999999998,
-          "y": 0.304,
+          "x": 0.021449999999999997,
+          "y": 0.20800000000000002,
           "uniqueID": "id-3512",
           "name": "Seat_height",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.024749999999999998,
-          "y": 0.418,
+          "x": 0.021449999999999997,
+          "y": 0.28600000000000003,
           "uniqueID": "id-3515",
           "name": "Ply_thick",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.024749999999999998,
-          "y": 0.532,
+          "x": 0.021449999999999997,
+          "y": 0.36400000000000005,
           "uniqueID": "id-3518",
           "name": "Width",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.024749999999999998,
-          "y": 0.646,
+          "x": 0.021449999999999997,
+          "y": 0.44200000000000006,
           "uniqueID": "id-3617",
           "name": "Leg_width"
+        },
+        {
+          "atomType": "Rotate",
+          "x": 0.331986531986532,
+          "y": 0.5090361445783133,
+          "uniqueID": "id-4665",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "x-axis degrees",
+              "ioValue": 90
+            },
+            {
+              "name": "y-axis degrees",
+              "ioValue": 0
+            },
+            {
+              "name": "z-axis degrees",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3616161616161616,
+          "y": 0.7680722891566265,
+          "uniqueID": "id-4671",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0.75
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.672053872053872,
+          "y": 0.4759036144578313,
+          "uniqueID": "id-4677",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         },
         {
           "atomType": "Molecule",
@@ -164,20 +269,8 @@
           "name": "Shape",
           "ioValues": [
             {
-              "name": "Height",
-              "ioValue": 40
-            },
-            {
-              "name": "Seat_height",
-              "ioValue": 19
-            },
-            {
               "name": "Ply_thick",
               "ioValue": 0.75
-            },
-            {
-              "name": "Width",
-              "ioValue": 14
             },
             {
               "name": "Leg_width",
@@ -200,40 +293,40 @@
             },
             {
               "atomType": "Input",
-              "x": 0.024749999999999998,
-              "y": 0.19,
+              "x": 0.021449999999999997,
+              "y": 0.13,
               "uniqueID": "id-3525",
               "name": "Height",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.024749999999999998,
-              "y": 0.304,
+              "x": 0.021449999999999997,
+              "y": 0.20800000000000002,
               "uniqueID": "id-3528",
               "name": "Seat_height",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.024749999999999998,
-              "y": 0.418,
+              "x": 0.021449999999999997,
+              "y": 0.28600000000000003,
               "uniqueID": "id-3531",
               "name": "Ply_thick",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.024749999999999998,
-              "y": 0.532,
+              "x": 0.021449999999999997,
+              "y": 0.36400000000000005,
               "uniqueID": "id-3534",
               "name": "Width",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.024749999999999998,
-              "y": 0.646,
+              "x": 0.021449999999999997,
+              "y": 0.44200000000000006,
               "uniqueID": "id-3620",
               "name": "Leg_width",
               "type": "number"
@@ -543,8 +636,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.021449999999999997,
+                  "y": 0.13,
                   "uniqueID": "id-3771",
                   "name": "InputShape"
                 },
@@ -582,8 +675,8 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.021449999999999997,
+                  "y": 0.20800000000000002,
                   "uniqueID": "id-3774",
                   "name": "Fillet"
                 }
@@ -728,36 +821,36 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.021449999999999997,
+                  "y": 0.13,
                   "uniqueID": "id-4366",
                   "name": "Base1"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.021449999999999997,
+                  "y": 0.20800000000000002,
                   "uniqueID": "id-4367",
                   "name": "Base2"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.418,
+                  "x": 0.021449999999999997,
+                  "y": 0.28600000000000003,
                   "uniqueID": "id-4368",
                   "name": "Trap_Height"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.532,
+                  "x": 0.021449999999999997,
+                  "y": 0.36400000000000005,
                   "uniqueID": "id-4369",
                   "name": "Extrude_height"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.646,
+                  "x": 0.021449999999999997,
+                  "y": 0.44200000000000006,
                   "uniqueID": "id-4370",
                   "name": "Fillet"
                 }
@@ -919,36 +1012,36 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.021449999999999997,
+                  "y": 0.13,
                   "uniqueID": "id-4399",
                   "name": "Base1"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.021449999999999997,
+                  "y": 0.20800000000000002,
                   "uniqueID": "id-4400",
                   "name": "Base2"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.418,
+                  "x": 0.021449999999999997,
+                  "y": 0.28600000000000003,
                   "uniqueID": "id-4401",
                   "name": "Trap_Height"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.532,
+                  "x": 0.021449999999999997,
+                  "y": 0.36400000000000005,
                   "uniqueID": "id-4402",
                   "name": "Extrude_height"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.646,
+                  "x": 0.021449999999999997,
+                  "y": 0.44200000000000006,
                   "uniqueID": "id-4403",
                   "name": "Fillet"
                 }
@@ -1110,36 +1203,36 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.021449999999999997,
+                  "y": 0.13,
                   "uniqueID": "id-4432",
                   "name": "Base1"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.021449999999999997,
+                  "y": 0.20800000000000002,
                   "uniqueID": "id-4433",
                   "name": "Base2"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.418,
+                  "x": 0.021449999999999997,
+                  "y": 0.28600000000000003,
                   "uniqueID": "id-4434",
                   "name": "Trap_Height"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.532,
+                  "x": 0.021449999999999997,
+                  "y": 0.36400000000000005,
                   "uniqueID": "id-4435",
                   "name": "Extrude_height"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.646,
+                  "x": 0.021449999999999997,
+                  "y": 0.44200000000000006,
                   "uniqueID": "id-4436",
                   "name": "Fillet"
                 }
@@ -1301,36 +1394,36 @@
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.19,
+                  "x": 0.021449999999999997,
+                  "y": 0.13,
                   "uniqueID": "id-4466",
                   "name": "Base1"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.304,
+                  "x": 0.021449999999999997,
+                  "y": 0.20800000000000002,
                   "uniqueID": "id-4467",
                   "name": "Base2"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.418,
+                  "x": 0.021449999999999997,
+                  "y": 0.28600000000000003,
                   "uniqueID": "id-4468",
                   "name": "Trap_Height"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.532,
+                  "x": 0.021449999999999997,
+                  "y": 0.36400000000000005,
                   "uniqueID": "id-4469",
                   "name": "Extrude_height"
                 },
                 {
                   "atomType": "Input",
-                  "x": 0.031349999999999996,
-                  "y": 0.646,
+                  "x": 0.021449999999999997,
+                  "y": 0.44200000000000006,
                   "uniqueID": "id-4470",
                   "name": "Fillet"
                 }
@@ -1508,74 +1601,6 @@
             }
           ],
           "fileTypeVersion": 1
-        },
-        {
-          "atomType": "Rotate",
-          "x": 0.331986531986532,
-          "y": 0.5090361445783133,
-          "uniqueID": "id-4665",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "x-axis degrees",
-              "ioValue": 90,
-              "currentEquation": "90"
-            },
-            {
-              "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
-            },
-            {
-              "name": "z-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
-            }
-          ]
-        },
-        {
-          "atomType": "Move",
-          "x": 0.3616161616161616,
-          "y": 0.7680722891566265,
-          "uniqueID": "id-4671",
-          "ioValues": [
-            {
-              "name": "geometry",
-              "ioValue": "__GEOMETRY_INPUT__"
-            },
-            {
-              "name": "xDist",
-              "ioValue": 0
-            },
-            {
-              "name": "yDist",
-              "ioValue": 0.75
-            },
-            {
-              "name": "zDist",
-              "ioValue": 0,
-              "currentEquation": "0"
-            }
-          ]
-        },
-        {
-          "atomType": "Assembly",
-          "x": 0.672053872053872,
-          "y": 0.4759036144578313,
-          "uniqueID": "id-4677",
-          "ioValues": [
-            {
-              "name": "Shape 1",
-              "ioValue": null
-            },
-            {
-              "name": "Shape 2",
-              "ioValue": null
-            }
-          ]
         }
       ],
       "allConnectors": [
@@ -1611,11 +1636,6 @@
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-3521",
-          "ap2ID": "id-4665"
-        },
-        {
-          "ap2Name": "geometry",
           "ap1ID": "id-4665",
           "ap2ID": "id-4671"
         },
@@ -1633,49 +1653,350 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-4677",
           "ap2ID": "id-3478"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-3521",
+          "ap2ID": "id-4665"
         }
       ],
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Move",
-      "x": 0.35757575757575755,
-      "y": 0.3674698795180723,
-      "uniqueID": "id-4682",
+      "atomType": "Molecule",
+      "x": 0.27027027027027023,
+      "y": 0.6626506024096386,
+      "uniqueID": "id-4905",
+      "name": "Molecule",
       "ioValues": [
         {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
+          "name": "Ply_thick",
+          "ioValue": 0.75
         },
         {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
+          "name": "Width",
           "ioValue": 14
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-4907",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
-          "name": "zDist",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.6127946127946128,
-      "y": 0.45180722891566266,
-      "uniqueID": "id-4688",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
+          "atomType": "Molecule",
+          "x": 0.24324324324324326,
+          "y": 0.5451807228915663,
+          "uniqueID": "id-4909",
+          "name": "Part",
+          "ioValues": [
+            {
+              "name": "Width",
+              "ioValue": 14
+            },
+            {
+              "name": "Ply_thick",
+              "ioValue": 0.75
+            },
+            {
+              "name": "Flareout",
+              "ioValue": 1.5,
+              "currentEquation": "1.5"
+            },
+            {
+              "name": "part_width",
+              "ioValue": 3.5,
+              "currentEquation": "3.5"
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-4911",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021449999999999997,
+              "y": 0.13,
+              "uniqueID": "id-4919",
+              "name": "Width",
+              "type": "number"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021449999999999997,
+              "y": 0.20800000000000002,
+              "uniqueID": "id-4922",
+              "name": "Ply_thick",
+              "type": "number"
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.345045045045045,
+              "y": 0.41566265060240964,
+              "uniqueID": "id-4932",
+              "name": "Rounded-rectangle-rep",
+              "ioValues": [
+                {
+                  "name": "width",
+                  "ioValue": 3.5,
+                  "currentEquation": "3"
+                },
+                {
+                  "name": "length",
+                  "ioValue": 14,
+                  "currentEquation": "3.5"
+                },
+                {
+                  "name": "radius",
+                  "ioValue": 0.5,
+                  "currentEquation": ".5"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 0.75
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-4926",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.5328151986183074,
+                  "y": 0.48757763975155277,
+                  "uniqueID": "id-4927",
+                  "ioValues": [
+                    {
+                      "name": "height",
+                      "ioValue": 0.75
+                    },
+                    {
+                      "name": "width",
+                      "ioValue": 3.5
+                    },
+                    {
+                      "name": "rad",
+                      "ioValue": 0.5
+                    },
+                    {
+                      "name": "length",
+                      "ioValue": 14
+                    }
+                  ],
+                  "codeVersion": 1,
+                  "code": "\n      const Inputs = [\n      {inputName: \"width\", type: \"number\", defaultValue: 5},\n        {inputName: \"length\", type: \"number\", defaultValue: 10},\n        {inputName: \"rad\", type: \"number\", defaultValue: 2},\n         {inputName: \"height\", type: \"number\", defaultValue: 1}\n        \n      ]\n\n      const newPlane = new replicad.Plane().pivot(0, 'Y')\n      //Create a new shape from scratch using replicad\nconsole.log(replicad)\n      let createdRoundedRectangle = replicad.sketchRoundedRectangle(width, length, rad, newPlane).extrude(height)\n    console.log(createdRoundedRectangle)\n\n      //Wrap the raw replicad geometry in our assembly format\n      let shape2 = {\n          geometry: [createdRoundedRectangle],\n          dimension: \"3D\",\n          tags: [\"createdShape\"],\n          color: '#A3CE5B',\n          plane: newPlane,\n          bom: []\n      }\n\n     \n\n      return shape2\n\n      /**\n      Built-in Functions Available:\n      - Move(geometry, x, y, z) - Move a shape in 3D space\n      - Rotate(geometry, x, y, z) - Rotate a shape around X, Y, Z axes (degrees)\n      - Scale(geometry, factor) - Scale a shape by a factor\n      - Assembly([shapes]) - Combine multiple shapes into an assembly\n      - Intersect(shape1, shape2) - Boolean intersection of two shapes\n      - GetBounds(geometry) - Get the bounding box of a shape\n      - Fillet(geometry, radius) - Round edges with specified radius\n      - Chamfer(geometry, size) - Bevel edges with specified size\n\n      To Use the Code Atom, enter your inputs to the input list as an object array:\n      const Inputs = [\n        {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n        {inputName: \"dist\", type: \"number\", defaultValue: 5},\n        {inputName: \"height\", type: \"number\", defaultValue: 10}\n      ]\n\n      Access imported geometry using library[inputName] - the built-in functions handle \n      the complexity of accessing geometry arrays and maintaining metadata automatically.\n\n      Simple Example - Move a shape:\n         const Inputs = [\n          {inputName: \"shape\", type: \"geometry\", defaultValue: null},\n          {inputName: \"x\", type: \"number\", defaultValue: 5}\n        ]\n        let movedShape = await Move(library[shape], x, 0, 0)\n        return movedShape\n      */\n      "
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.021449999999999997,
+                  "y": 0.13,
+                  "uniqueID": "id-4928",
+                  "name": "width",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.021449999999999997,
+                  "y": 0.20800000000000002,
+                  "uniqueID": "id-4929",
+                  "name": "length",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.021449999999999997,
+                  "y": 0.28600000000000003,
+                  "uniqueID": "id-4930",
+                  "name": "radius",
+                  "type": "number"
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.021449999999999997,
+                  "y": 0.36400000000000005,
+                  "uniqueID": "id-4931",
+                  "name": "height",
+                  "type": "number"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-4927",
+                  "ap2ID": "id-4926"
+                },
+                {
+                  "ap2Name": "width",
+                  "ap1ID": "id-4928",
+                  "ap2ID": "id-4927"
+                },
+                {
+                  "ap2Name": "length",
+                  "ap1ID": "id-4929",
+                  "ap2ID": "id-4927"
+                },
+                {
+                  "ap2Name": "rad",
+                  "ap1ID": "id-4930",
+                  "ap2ID": "id-4927"
+                },
+                {
+                  "ap2Name": "height",
+                  "ap1ID": "id-4931",
+                  "ap2ID": "id-4927"
+                }
+              ],
+              "parentRepo": {
+                "lastFoundGit": "2026-02-23T10:23:39.254Z",
+                "privateRepo": false,
+                "repoName": "Rounded-rectangle-rep",
+                "dateCreated": "2025-10-07T14:21:34Z",
+                "likes": 0,
+                "readMe": "https://raw.githubusercontent.com/alzatin/Rounded-rectangle-rep/master/README.md?sanitize=true",
+                "yyyy": 2025,
+                "topMoleculeID": "cda49ba0-13f8-4029-b2b8-230ed42791e4",
+                "githubMoleculesUsed": [],
+                "html_url": "https://github.com/alzatin/Rounded-rectangle-rep",
+                "topics": [
+                  "abundance-tool",
+                  "3d"
+                ],
+                "parentRepo": null,
+                "forks": 0,
+                "dateModified": "739531",
+                "ranking": 4.5,
+                "searchField": "rounded-rectangle-rep alzatin 3d extruded- rounded rectangle using replicad's sketchroundedrectangle method. less likely to fail when using larger radius.  abundance-tool 3d",
+                "owner": "alzatin",
+                "description": "3D Extruded- Rounded rectangle using replicad's sketchRoundedRectangle method. Less likely to fail when using larger radius. ",
+                "contentURL": "https://raw.githubusercontent.com/alzatin/Rounded-rectangle-rep/master/project.abundance?sanitize=true",
+                "svgURL": "https://raw.githubusercontent.com/alzatin/Rounded-rectangle-rep/master/project.svg?sanitize=true",
+                "isLocal": false
+              },
+              "unitsKey": "MM",
+              "fileTypeVersion": 1
+            },
+            {
+              "atomType": "Equation",
+              "x": 0.17117117117117117,
+              "y": 0.677710843373494,
+              "uniqueID": "id-4950",
+              "name": "width + flare*2",
+              "ioValues": [
+                {
+                  "name": "width",
+                  "ioValue": 14,
+                  "currentEquation": "1"
+                },
+                {
+                  "name": "flare",
+                  "ioValue": 1.5
+                }
+              ],
+              "currentEquation": "width + flare*2"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021449999999999997,
+              "y": 0.35240963855421686,
+              "uniqueID": "id-4954",
+              "name": "Flareout"
+            },
+            {
+              "atomType": "Input",
+              "x": 0.021449999999999997,
+              "y": 0.4879518072289156,
+              "uniqueID": "id-4959",
+              "name": "part_width"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "width",
+              "ap1ID": "id-4919",
+              "ap2ID": "id-4950"
+            },
+            {
+              "ap2Name": "length",
+              "ap1ID": "id-4919",
+              "ap2ID": "id-4932"
+            },
+            {
+              "ap2Name": "height",
+              "ap1ID": "id-4922",
+              "ap2ID": "id-4932"
+            },
+            {
+              "ap2Name": "flare",
+              "ap1ID": "id-4954",
+              "ap2ID": "id-4950"
+            },
+            {
+              "ap2Name": "width",
+              "ap1ID": "id-4959",
+              "ap2ID": "id-4932"
+            }
+          ],
+          "fileTypeVersion": 1
         },
         {
-          "name": "Shape 2",
-          "ioValue": null
+          "atomType": "Input",
+          "x": 0.021449999999999997,
+          "y": 0.13,
+          "uniqueID": "id-4913",
+          "name": "Ply_thick",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.021449999999999997,
+          "y": 0.20800000000000002,
+          "uniqueID": "id-4916",
+          "name": "Width",
+          "type": "number"
         }
-      ]
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "Ply_thick",
+          "ap1ID": "id-4913",
+          "ap2ID": "id-4909"
+        },
+        {
+          "ap2Name": "Width",
+          "ap1ID": "id-4916",
+          "ap2ID": "id-4909"
+        }
+      ],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -1700,24 +2021,24 @@
       "ap2ID": "id-4682"
     },
     {
+      "ap2Name": "Width",
+      "ap1ID": "id-3503",
+      "ap2ID": "id-4905"
+    },
+    {
       "ap2Name": "Ply_thick",
       "ap1ID": "id-3506",
       "ap2ID": "id-3476"
     },
     {
+      "ap2Name": "Ply_thick",
+      "ap1ID": "id-3506",
+      "ap2ID": "id-4905"
+    },
+    {
       "ap2Name": "Leg_width",
       "ap1ID": "id-3623",
       "ap2ID": "id-3476"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-3476",
-      "ap2ID": "id-4682"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-3476",
-      "ap2ID": "id-4688"
     },
     {
       "ap2Name": "Shape 1",
@@ -1728,6 +2049,16 @@
       "ap2Name": "number or geometry",
       "ap1ID": "id-4688",
       "ap2ID": "id-3395"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-3476",
+      "ap2ID": "id-4682"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-3476",
+      "ap2ID": "id-4688"
     }
   ],
   "unitsKey": "Inches",
