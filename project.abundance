@@ -7,7 +7,8 @@
   "ioValues": [
     {
       "name": "Height",
-      "ioValue": 40
+      "ioValue": 40,
+      "currentEquation": "40"
     },
     {
       "name": "Seat_height",
@@ -144,8 +145,8 @@
     },
     {
       "atomType": "Move",
-      "x": 0.5656350053361793,
-      "y": 0.7259036144578314,
+      "x": 0.5517241379310345,
+      "y": 0.7198795180722891,
       "uniqueID": "id-5337",
       "ioValues": [
         {
@@ -154,17 +155,17 @@
         },
         {
           "name": "xDist",
-          "ioValue": 8,
-          "currentEquation": "8"
+          "ioValue": 9,
+          "currentEquation": "9"
         },
         {
           "name": "yDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 5.875,
+          "currentEquation": "Width/2 + Ply_thick/2 -1.5"
         },
         {
           "name": "zDist",
-          "ioValue": 0
+          "ioValue": 17.25
         }
       ]
     },
@@ -2476,6 +2477,25 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.30896551724137933,
+      "y": 0.8313253012048193,
+      "uniqueID": "id-5658",
+      "name": "x - y/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19,
+          "currentEquation": "1"
+        },
+        {
+          "name": "y",
+          "ioValue": 3.5
+        }
+      ],
+      "currentEquation": "x - y/2"
     }
   ],
   "allConnectors": [
@@ -2488,6 +2508,11 @@
       "ap2Name": "Seat_height",
       "ap1ID": "id-3487",
       "ap2ID": "id-3476"
+    },
+    {
+      "ap2Name": "x",
+      "ap1ID": "id-3487",
+      "ap2ID": "id-5658"
     },
     {
       "ap2Name": "Width",
@@ -2520,6 +2545,11 @@
       "ap2ID": "id-3476"
     },
     {
+      "ap2Name": "y",
+      "ap1ID": "id-3623",
+      "ap2ID": "id-5658"
+    },
+    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-4682",
       "ap2ID": "id-4688"
@@ -2545,6 +2575,11 @@
       "ap2ID": "id-4905"
     },
     {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-5337",
+      "ap2ID": "id-5332"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-3476",
       "ap2ID": "id-4682"
@@ -2555,13 +2590,13 @@
       "ap2ID": "id-4688"
     },
     {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-4905",
-      "ap2ID": "id-5332"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-4905",
+      "ap2ID": "id-5337"
+    },
+    {
+      "ap2Name": "zDist",
+      "ap1ID": "id-5658",
       "ap2ID": "id-5337"
     }
   ],
