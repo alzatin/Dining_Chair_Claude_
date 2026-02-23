@@ -159,8 +159,7 @@
         },
         {
           "name": "xDist",
-          "ioValue": 9,
-          "currentEquation": "9"
+          "ioValue": 9
         },
         {
           "name": "yDist",
@@ -170,6 +169,138 @@
         {
           "name": "zDist",
           "ioValue": 17.25
+        }
+      ]
+    },
+    {
+      "atomType": "Equation",
+      "x": 0.2827586206896552,
+      "y": 0.4849397590361446,
+      "uniqueID": "id-5658",
+      "name": "x - y/2",
+      "ioValues": [
+        {
+          "name": "x",
+          "ioValue": 19
+        },
+        {
+          "name": "y",
+          "ioValue": 3.5
+        }
+      ],
+      "currentEquation": "x - y/2"
+    },
+    {
+      "atomType": "CutLayout",
+      "x": 0.6972413793103448,
+      "y": 0.2650602409638554,
+      "uniqueID": "id-5666",
+      "name": "Cut Layout",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Sheet Width",
+          "ioValue": 96
+        },
+        {
+          "name": "Sheet Height",
+          "ioValue": 48
+        },
+        {
+          "name": "Part Padding",
+          "ioValue": 0.4
+        },
+        {
+          "name": "Orientations",
+          "ioValue": 12
+        }
+      ],
+      "placements": []
+    },
+    {
+      "atomType": "Gcode",
+      "x": 0.8275862068965518,
+      "y": 0.35843373493975905,
+      "uniqueID": "id-5673",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Tool Size",
+          "ioValue": 0.25
+        },
+        {
+          "name": "Passes",
+          "ioValue": 1
+        },
+        {
+          "name": "Speed",
+          "ioValue": 1500
+        },
+        {
+          "name": "Cut Through",
+          "ioValue": 0
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Dining_Chair_Claude_",
+          "currentEquation": "Dining_Chair_Claude_"
+        }
+      ],
+      "partName": "Dining_Chair_Claude_",
+      "sortDirection": "Left"
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.3593103448275862,
+      "y": 0.8554216867469879,
+      "uniqueID": "id-5801",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 70
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.4882758620689655,
+      "y": 0.786144578313253,
+      "uniqueID": "id-5807",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 2.5,
+          "currentEquation": "2.5"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 7
+        },
+        {
+          "name": "zDist",
+          "ioValue": 35
         }
       ]
     },
@@ -2483,92 +2614,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Equation",
-      "x": 0.2827586206896552,
-      "y": 0.4849397590361446,
-      "uniqueID": "id-5658",
-      "name": "x - y/2",
-      "ioValues": [
-        {
-          "name": "x",
-          "ioValue": 19,
-          "currentEquation": "1"
-        },
-        {
-          "name": "y",
-          "ioValue": 3.5
-        }
-      ],
-      "currentEquation": "x - y/2"
-    },
-    {
-      "atomType": "CutLayout",
-      "x": 0.6972413793103448,
-      "y": 0.2650602409638554,
-      "uniqueID": "id-5666",
-      "name": "Cut Layout",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Sheet Width",
-          "ioValue": 96,
-          "currentEquation": "96"
-        },
-        {
-          "name": "Sheet Height",
-          "ioValue": 48
-        },
-        {
-          "name": "Part Padding",
-          "ioValue": 0.4
-        },
-        {
-          "name": "Orientations",
-          "ioValue": 12
-        }
-      ],
-      "placements": []
-    },
-    {
-      "atomType": "Gcode",
-      "x": 0.8275862068965518,
-      "y": 0.35843373493975905,
-      "uniqueID": "id-5673",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "Tool Size",
-          "ioValue": 0.25,
-          "currentEquation": "0.25"
-        },
-        {
-          "name": "Passes",
-          "ioValue": 1
-        },
-        {
-          "name": "Speed",
-          "ioValue": 1500
-        },
-        {
-          "name": "Cut Through",
-          "ioValue": 0
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "Dining_Chair_Claude_",
-          "currentEquation": "Dining_Chair_Claude_"
-        }
-      ],
-      "partName": "Dining_Chair_Claude_",
-      "sortDirection": "Left"
-    },
-    {
       "atomType": "Molecule",
       "x": 0.2751724137931034,
       "y": 0.8433734939759037,
@@ -2577,18 +2622,15 @@
       "ioValues": [
         {
           "name": "Ply_thick",
-          "ioValue": 0.75,
-          "currentEquation": "0.75"
+          "ioValue": 0.75
         },
         {
           "name": "Width",
-          "ioValue": 14,
-          "currentEquation": "10"
+          "ioValue": 14
         },
         {
           "name": "Back_height",
-          "ioValue": 12,
-          "currentEquation": "12"
+          "ioValue": 12
         }
       ],
       "topLevel": false,
@@ -2616,7 +2658,7 @@
         {
           "atomType": "Input",
           "x": 0.021449999999999997,
-          "y": 0.2560240963855422,
+          "y": 0.20800000000000002,
           "uniqueID": "id-5683",
           "name": "Width",
           "type": "number"
@@ -2624,7 +2666,7 @@
         {
           "atomType": "Input",
           "x": 0.021449999999999997,
-          "y": 0.4337349397590362,
+          "y": 0.28600000000000003,
           "uniqueID": "id-5684",
           "name": "Back_height",
           "type": "number"
@@ -3268,56 +3310,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.3593103448275862,
-      "y": 0.8554216867469879,
-      "uniqueID": "id-5801",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 70,
-          "currentEquation": "70"
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.47655172413793107,
-      "y": 0.8192771084337349,
-      "uniqueID": "id-5807",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 3
-        },
-        {
-          "name": "yDist",
-          "ioValue": 7
-        },
-        {
-          "name": "zDist",
-          "ioValue": 36
-        }
-      ]
     }
   ],
   "allConnectors": [
@@ -3417,6 +3409,26 @@
       "ap2ID": "id-5332"
     },
     {
+      "ap2Name": "zDist",
+      "ap1ID": "id-5658",
+      "ap2ID": "id-5337"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-5666",
+      "ap2ID": "id-5673"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-5801",
+      "ap2ID": "id-5807"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-5807",
+      "ap2ID": "id-5332"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-3476",
       "ap2ID": "id-4682"
@@ -3432,29 +3444,9 @@
       "ap2ID": "id-5337"
     },
     {
-      "ap2Name": "zDist",
-      "ap1ID": "id-5658",
-      "ap2ID": "id-5337"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-5666",
-      "ap2ID": "id-5673"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-5680",
       "ap2ID": "id-5801"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-5801",
-      "ap2ID": "id-5807"
-    },
-    {
-      "ap2Name": "Shape 3",
-      "ap1ID": "id-5807",
-      "ap2ID": "id-5332"
     }
   ],
   "unitsKey": "Inches",
