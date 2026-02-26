@@ -210,8 +210,7 @@
         },
         {
           "name": "Part Padding",
-          "ioValue": 0.5,
-          "currentEquation": ".5"
+          "ioValue": 0.5
         },
         {
           "name": "Orientations",
