@@ -129,7 +129,7 @@
     {
       "atomType": "Assembly",
       "x": 0.6431261770244822,
-      "y": 0.47289156626506024,
+      "y": 0.4939759036144578,
       "uniqueID": "id-5332",
       "ioValues": [
         {
@@ -214,8 +214,7 @@
         },
         {
           "name": "Orientations",
-          "ioValue": 20,
-          "currentEquation": "20"
+          "ioValue": 20
         }
       ],
       "placements": [
@@ -671,8 +670,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.21481481481481482,
-      "y": 0.2680722891566265,
+      "x": 0.21563088512241052,
+      "y": 0.2620481927710844,
       "uniqueID": "id-3476",
       "name": "Side",
       "ioValues": [
